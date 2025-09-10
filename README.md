@@ -1,14 +1,14 @@
-📈 Adani Stock Price Prediction using Machine Learning
+# 📈 Adani Stock Price Prediction using Machine Learning
 
 This project builds a Machine Learning model to predict the stock price of Adani Group companies based on historical market data. The objective is to provide a reliable estimate of future stock values using statistical and ML-based techniques.
 
-1. 🔎 Project Overview
+### 🔎 Project Overview
 
 Stock markets are inherently volatile and influenced by numerous factors such as market sentiment, global indices, and company-specific performance.
 
 This project applies regression-based machine learning models to capture these patterns and predict stock movements, with a focus on Adani Enterprises Ltd. (and other Adani stocks if included).
 
-2. 📂 Dataset
+### 📂 Dataset
 
 The dataset consists of historical stock data, typically obtained from NSE/BSE or Yahoo Finance. Features include:
 
@@ -26,7 +26,7 @@ Volume → Number of shares traded
 
 (Target variable: Close price)
 
-3. ⚙️ Methodology
+### ⚙️ Methodology
 🔧 Data Preprocessing
 
 Converted dates into usable features (time series handling)
@@ -45,7 +45,7 @@ Tuned hyperparameters with cross-validation
 
 Performance measured using Root Mean Squared Error (RMSE)
 
-4. 🏆 Results
+### 🏆 Results
 
 ✅ Achieved an RMSE of [insert value here] on the test set
 
